@@ -2,17 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Health Kitchen - Simple healthy recipes, meal prep tips, and nutrition advice.">
     <title>Health Kitchen</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPDX4WK6PD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CPDX4WK6PD');
+</script>
 </head>
 
 <body>
 
     <header>
+        
         <h1>Hea<svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
     <path d="M285.7 32c-3.3 0-6 1.4-8 3.8C259 58.7 224 116.1 224 250.1c0 39.2 33 39.2 32 69.4v.4c-2 47.1-14.9 111.1-16 130.3-.4 15.2 9.7 29.8 24.1 29.8h.4c14.4 0 23.5-14.4 23.5-29.6V38.3c0-5-.5-6.3-2.3-6.3z"/>
   </svg>th Kitchen</h1>
+  <nav>
+        <a href="index.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="mealprep.html">Meal Prep Tips</a>
+        <a href="nutrition.html">Nutrition Info</a>
+        <a href="contact.html">Contact</a>
+    </nav>
         <p>Easy and healthy recipes for cooking every day!</p>
     </header>
    
@@ -33,8 +50,15 @@
     <div class="hero">
         <h2>Featured Healthy Recipe</h2>
         <p>Try our delicious quinoa veggie bowl packed with nutrients and flavor.</p>
+        <section class="video-section">
+    <video autoplay muted loop playsinline>
+        <source src="5645107-hd_1080_1920_25fps.mp4" type="video/mp4" alt="Healthy video" >
+  
+    </video>
+</section>
         <button onclick="location.href='recipes.html'">Read More</button>
     </div>
+    
 
     <!-- RECIPE GRID -->
     <div class="recipes">

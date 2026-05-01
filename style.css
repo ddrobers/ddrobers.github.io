@@ -90,7 +90,12 @@ section img {
     padding: 15px;
     border: 2px solid #ccc;
 }
+/* THIS fixes your issue */
+.video-section video {
+    width: 300px;
 
+    border-radius: 8px;
+}
 
 /* RECIPES SECTION */
 .recipes {
